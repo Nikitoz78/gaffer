@@ -19,6 +19,7 @@ The "input" software module is the main part of the program. Accordingly, its fu
 - Timer of time spent on word set;
 - Determination of the current speed of dialing;
 - Defines the average speed of dialing.
+
   The main information part of the system is the data file. The file has the structure of an ini file and contains all the information stored in the system.
 The format of ini files is very simple. The Ini file is a text file. The parameter group is merged into sections. In the text, the title of the section is highlighted by square brackets. The data is stored as "< Key Name > = < Value >." To access the key value, the function is called, whose parameters pass the partition name and the key name.
 The "dat.ini" settings file stores the program settings.
@@ -40,6 +41,7 @@ RUS:
 - таймер времени затраченного на набор слова;
 - определение текущей скорости набора;
 - определение средней скорости набора.
+
   Основной информационной частью системы является файл с данными. Файл имеет структуру ini-файла и содержит всю хранящуюся в системе информацию.
 Формат ini-файлов очень прост. Ini-файл представляет собой текстовый файл. Группа параметров объединяются в секции. В тексте название секции выделяется квадратными скобками. Данные хранятся в виде строки: «<Имя ключа>=<Значение>». Для доступа к значению ключа вызывается функция, параметрами которой передаются имя секции и имя ключа. 
 В файле настроек «dat.ini» хранятся настройки программы.
